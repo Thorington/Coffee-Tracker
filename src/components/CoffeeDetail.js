@@ -9,6 +9,7 @@ function CoffeeDetail(props) {
       <h3>{coffee.origin} - {coffee.name}</h3>
       <p><em>{coffee.roast}</em></p>
       <p><em>{coffee.price}</em></p>
+      <p><em>{coffee.weight}</em></p>
       <button onClick={props.onClickingEdit}>Update Coffee</button>
       <button onClick={()=> onClickingDelete(coffee.id) }>Delete Coffee</button>
       <hr/>

@@ -15,6 +15,7 @@ function CoffeeMenu(props){
         origin={coffee.origin}
         roast={coffee.roast}
         price={coffee.price}
+        weight={coffee.weight}
         id={coffee.id}
         key={coffee.id}/>
       )}
