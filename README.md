@@ -15,6 +15,7 @@
 
 A React application that tracks inventory for a coffee company. User can view a menu of all available coffees, including name, origin, price, roast, and weight. User can add a sack of coffee to the inventory and click any coffee to see details.
 
+![component diagram](https://your-copied-image-address)
 
 ## Setup/Installation Requirements
 
