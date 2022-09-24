@@ -49,6 +49,14 @@ class MenuControl extends React.Component {
     });
   }
 
+  // handleSellingCoffee = (id) => {
+  //   const newMainMenu = this.state.mainMenu.filter(coffee => coffee.id !== id);
+  //   this.setState({
+  //     mainMenu: newMainMenu,
+  //     selectedCoffee: null
+  //   });
+  // }
+
   handleEditClick = () => {
     console.log("handleEditClick reached!");
     this.setState({editing: true});
@@ -73,7 +81,7 @@ class MenuControl extends React.Component {
       buttonText = "Return to Coffee Menu";
     }
     else if (this.state.selectedCoffee != null) {
-      currentlyVisibleState = <CoffeeDetail coffee = {this.state.selectedCoffee} onClickingDelete = {this.handleDeletingCoffee} onClickingEdit = {this.handleEditClick} />
+      currentlyVisibleState = <CoffeeDetail coffee = {this.state.selectedCoffee} onClickingDelete = {this.handleDeletingCoffee} onClickingEdit = {this.handleEditClick} onClickingSell = {this.handleSellingCoffee}/>
       buttonText = "Return to Coffee Menu";
     }
     else if (this.state.formVisibleOnPage) {

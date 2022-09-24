@@ -49,7 +49,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Known Bugs
 
-* "Decrementer" isn't functional
+* "Sell" button on coffee details page isn't functional
 
 
 ## License
